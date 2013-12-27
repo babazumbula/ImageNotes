@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageNotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnIntend">Take (big) Picture</string>
+    <string name="btnIntendS">Take an Image Note!</string>
+    <string name="btnIntendV">Take Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">ImageNotes</string>
+    <string name="noRecordsTxt">You haven\'t still made any notes. Please do so!</string>
+    
+
+</resources>
