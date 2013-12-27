@@ -114,6 +114,7 @@ public class PhotoIntentActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_photo_intent);
 		
+		mHelper=new DbHelper(this);
 		io = new InputOutput();
 		mImageBitmap = null;
 	//	list = (ListView) findViewById(R.id.);
@@ -244,7 +245,6 @@ public class PhotoIntentActivity extends ListActivity {
 	
 	private void displayData(){
 		
-		mHelper=new DbHelper(this);
 		dataBase = mHelper.getWritableDatabase();
 		Cursor mCursor = dataBase.rawQuery("SELECT * FROM "+ DbHelper.TABLE_NAME, null);
 		
